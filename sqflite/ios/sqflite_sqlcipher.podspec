@@ -16,9 +16,9 @@ Access SQLite database.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'FMDB/SQLCipher', '~> 2.7.5'
-  s.dependency 'SQLCipher', '4.5.7'
+  s.dependency 'SQLCipher', '4.6.0'
   
-  s.platform = :ios, '11.0'
+  s.platform = :ios, '16.0'
   s.ios.deployment_target = '11.0'
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES',
